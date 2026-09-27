@@ -1,0 +1,5 @@
+build/
+0xProto/
+.cache/
+.DS_Store
+main.c.bk
