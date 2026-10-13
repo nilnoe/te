@@ -169,6 +169,7 @@ int main(void) {
         renderCursor(renderer, 0xFFFFFFFF);
         SDL_RenderPresent(renderer);
     }
+    SDL_DestroyTexture(font.spritesheet);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
